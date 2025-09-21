@@ -1,4 +1,4 @@
-# fuel_efficiency_NN
+# MPG Predictor
 I used a two layer Neural Network with ReLU activation to predict car gas Mileage based on the car's:
   - cylinder type
   - displacement
