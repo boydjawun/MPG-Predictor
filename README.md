@@ -2,7 +2,7 @@
 Fuel Efficiency Prediction with PyTorch Neural Network
 Overview
 This repository implements a simple feedforward neural network using PyTorch to predict car fuel efficiency (Miles Per Gallon, MPG) based on the Auto MPG dataset from the UCI Machine Learning Repository. The project demonstrates end-to-end machine learning workflow, including data loading, preprocessing, model training, evaluation, and inference on new data points.
-Features
+Features /n
 •  Data Preprocessing: Loads the dataset via URL, handles missing values, splits into train/test sets (80/20), standardizes numerical features (Cylinders, Displacement, Horsepower, Weight, Acceleration), bucketizes Model Year into discrete categories ([73, 76, 79]), and one-hot encodes the categorical Origin feature (USA=1, Europe=2, Japan=3).
 •  Model Architecture: A multi-layer perceptron with an input layer matching the feature size, two hidden layers (8 and 4 units) with ReLU activations, and a single output neuron for regression.
 •  Training: Uses Mean Squared Error (MSE) loss, Stochastic Gradient Descent (SGD) optimizer with learning rate 0.001, batch size 8, and trains for 200 epochs with loss logging every 20 epochs.
